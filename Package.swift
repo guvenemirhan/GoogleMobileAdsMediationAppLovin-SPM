@@ -8,14 +8,12 @@ let package = Package(
         .library(name: "GoogleMobileAdsMediationAppLovin", targets: ["GoogleMobileAdsMediationAppLovin"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "12.1.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "11.0.0")
     ],
     targets: [
         .target(
             name: "GoogleMobileAdsMediationAppLovin",
             dependencies: [
-                .product(name: "AppLovinSDK", package: "AppLovin-MAX-Swift-Package"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 "AppLovinAdapter",
             ],

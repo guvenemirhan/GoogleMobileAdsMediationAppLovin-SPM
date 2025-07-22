@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "AppLovinAdapter",
             url: "https://github.com/guvenemirhan/GoogleMobileAdsMediationAppLovin-SPM/releases/download/13.0.0.2/AppLovinAdapter.xcframework.zip",
-            checksum: "GERÇEK-CHECKSUM-BURAYA"
+            checksum: "511c1bb793ec80b1baa22185df767e2f8d7ab72b81edc7a901923b26346e491e"
         ),
     ]
 )
